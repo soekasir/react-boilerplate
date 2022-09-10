@@ -1,0 +1,66 @@
+{
+  "edit": {
+    "id": 266,
+    "techs": [
+      {
+        "id": 38,
+        "uid": "07f0f03d-5d42-4a81-b87b-b3abcb98d638",
+        "first_name": "Achmad Affandy",
+        "last_name": "Letto",
+        "email": "letto.affandy@gmail.com",
+        "display_priority": 10
+      }
+    ],
+    "materialTechs": [
+      {
+        "id": 18,
+        "first_name": "",
+        "last_name": "",
+        "email": "dimasilhamsaputra7@gmail.com"
+      }
+    ],
+    "project": {
+      "projectID": "22055-0622_",
+      "name": "Cabling and Camera installations",
+      "color": "#bd1f5a"
+    },
+    "uid": "ff1c7ab1-9583-466f-97d8-de36ba13879f",
+    "startDate": "2022-07-22",
+    "startTime": "12:00:00",
+    "materialTime": "12:00:00",
+    "length": "03:00:00",
+    "name": "my task njajal",
+    "parent": false,
+    "description": "qwe",
+    "startLocation": "32 Mauchly Suite A",
+    "reference": 48
+  },
+
+  "new": {
+    "project": { "projectID": "ProjectId-nya" },
+    "techs": [
+      {
+        "id": 17,
+        "first_name": "suka",
+        "last_name": "sir",
+        "email": "soekasir@gmail.com"
+      }
+    ],
+    "materialTechs": [
+      {
+        "id": 18,
+        "first_name": "",
+        "last_name": "",
+        "email": "dimasilhamsaputra7@gmail.com"
+      }
+    ],
+    "startDate": ["2022-07-27", "2022-07-28", "2022-07-29"],
+    "startTime": "",
+    "materialTime": "",
+    "length": "01:00:00",
+    "name": "Job Scope Title-nya",
+    "description": "Detailed SOW for Work Order and TSheet-nya",
+    "startLocation": "Site Start Location-nya",
+    "materialLocation": "212 Tech"
+  }
+}

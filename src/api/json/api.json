@@ -1,0 +1,215 @@
+{
+  "techs": [
+    { "id": "22048-0613_", "name": "QA testing for Daniel 22048-0613_" },
+    {
+      "id": "22004-0214_",
+      "name": "Project testing eCore QA machine 22004-0214_"
+    },
+    { "id": "22005-0221_", "name": "Lead 1 22005-0221_" },
+    {
+      "id": "22011-0224_",
+      "name": "New project to check auto fill 22011-0224_"
+    },
+    { "id": "22008-0224_", "name": "project 3 22008-0224_" },
+    { "id": "22025-0411_", "name": "my 1st roll out project 22025-0411_" },
+    { "id": "22023-0411_", "name": "Test projecct 002 22023-0411_" },
+    {
+      "id": "22055-0622_",
+      "name": "Cabling and Camera installations 22055-0622_"
+    },
+    { "id": "22061-0705_", "name": "CRM/ERP 22061-0705_" }
+  ],
+  "associates": [
+    {
+      "id": 144,
+      "techs": [
+        {
+          "id": 21,
+          "uid": "137716dd-1696-4c80-ac2f-9fec7b9e2c56",
+          "first_name": "Associate employee first",
+          "last_name": "Associate employee last",
+          "email": "perfectinteriors1@gmail.com",
+          "display_priority": 7
+        }
+      ],
+      "materialTechs": [],
+      "project": {
+        "projectID": "22048-0613_",
+        "name": "QA testing for Daniel",
+        "color": "#ED6C1F",
+        "uid": "c6f040ef-49e0-4d60-9435-178e916c1c2a",
+        "site_address": { "address": "212 mauchly" }
+      },
+      "uid": "25f17b36-20c1-48f0-9709-151ef6ded389",
+      "startDate": "2022-06-29",
+      "startTime": "12:00:00",
+      "materialTime": "12:00:00",
+      "length": "01:00:00",
+      "name": "Test associate planner",
+      "parent": false,
+      "description": "Test the associate planner if works",
+      "startLocation": "Mauchly",
+      "reference": 29
+    },
+    {
+      "id": 145,
+      "techs": [
+        {
+          "id": 21,
+          "uid": "137716dd-1696-4c80-ac2f-9fec7b9e2c56",
+          "first_name": "Associate employee first",
+          "last_name": "Associate employee last",
+          "email": "perfectinteriors1@gmail.com",
+          "display_priority": 7
+        }
+      ],
+      "materialTechs": [],
+      "project": {
+        "projectID": "22048-0613_",
+        "name": "QA testing for Daniel",
+        "color": "#ED6C1F",
+        "uid": "c6f040ef-49e0-4d60-9435-178e916c1c2a",
+        "site_address": { "address": "212 mauchly" }
+      },
+      "uid": "3d2eeeeb-9b9c-47c5-9436-d3c8b37b5106",
+      "startDate": "2022-06-30",
+      "startTime": "12:00:00",
+      "materialTime": "12:00:00",
+      "length": "01:00:00",
+      "name": "Test associate planner",
+      "parent": false,
+      "description": "Test the associate planner if works",
+      "startLocation": "Mauchly",
+      "reference": 29
+    }
+  ],
+  "siteLocation": [
+    "212 Technology Drive, Irvine CA 92618",
+    "32 Mauchly Suite A, Irvine CA 92618",
+    "25 Mauchly Unit 316, Irvine CA 92618",
+    "Site address",
+    "Home"
+  ],
+  "getResource": {
+    "techs": [
+      {
+        "id": 1,
+        "first_name": "Arian",
+        "last_name": "Alavi",
+        "email": "arianalavi1@gmail.com",
+        "uid": "062c7a56-69a9-44bc-a3ef-19d1ea73dc76",
+        "display_priority": 10
+      },
+      {
+        "id": 4,
+        "first_name": "David",
+        "last_name": "Khorram Test",
+        "email": "dkhorram@innovaglobal.com",
+        "uid": "c5cf298e-6de3-43f8-ad44-4062a28e7983",
+        "display_priority": 11
+      },
+      {
+        "id": 7,
+        "first_name": "Associate employee first",
+        "last_name": "Associate employee last",
+        "email": "perfectinteriors1@gmail.com",
+        "uid": "137716dd-1696-4c80-ac2f-9fec7b9e2c56",
+        "display_priority": 7
+      },
+      {
+        "id": 11,
+        "first_name": "Achmad Affandy",
+        "last_name": "Letto",
+        "email": "letto.affandy@gmail.com",
+        "uid": "07f0f03d-5d42-4a81-b87b-b3abcb98d638",
+        "display_priority": 6
+      },
+      {
+        "id": 12,
+        "first_name": "Daniel",
+        "last_name": "Bernabe",
+        "email": "dbernabe@innovaglobal.com",
+        "uid": "575f5ef4-b257-4d5c-a252-147d710d5c7b",
+        "display_priority": 5
+      },
+      {
+        "id": 13,
+        "first_name": "Daniel the Tech",
+        "last_name": "Daniel the Tech",
+        "email": "dtech@innovaglobal.com",
+        "uid": "9f33f7a6-000c-4cdc-82c6-9481d976d368",
+        "display_priority": 4
+      },
+      {
+        "id": 17,
+        "first_name": "suka",
+        "last_name": "sir",
+        "email": "soekasir@gmail.com",
+        "uid": "8afaea99-88fc-4c8a-9429-767ae45eb3fa",
+        "display_priority": 9
+      },
+      {
+        "id": 19,
+        "first_name": "",
+        "last_name": "",
+        "email": "pkalhor@innovaaccelerator.email",
+        "uid": "72eab5ab-a889-4b85-a564-35f6f6ca7a96",
+        "display_priority": 1
+      },
+      {
+        "id": 18,
+        "first_name": "",
+        "last_name": "",
+        "email": "dimasilhamsaputra7@gmail.com",
+        "uid": "8eca6de5-2a41-45cc-ba9c-88a689fe999d",
+        "display_priority": 2
+      },
+      {
+        "id": 16,
+        "first_name": "",
+        "last_name": "",
+        "email": "tprivledges@innovaglobal.com",
+        "uid": "8d2b0d0b-e24b-48f5-9389-8799601f9219",
+        "display_priority": 0
+      }
+    ],
+    "associates": [
+      {
+        "id": 7,
+        "first_name": "Associate employee first",
+        "last_name": "Associate employee last",
+        "email": "perfectinteriors1@gmail.com",
+        "uid": "137716dd-1696-4c80-ac2f-9fec7b9e2c56",
+        "display_priority": 7
+      },
+      {
+        "id": 14,
+        "first_name": "Christian",
+        "last_name": "Rosario",
+        "email": "crosario@company.here",
+        "uid": "14f5a8a9-3aeb-41b3-9bcc-e4cf4171fd09",
+        "display_priority": 3
+      }
+    ]
+  },
+  "all-project": [
+    { "id": "22048-0613_", "name": "QA testing for Daniel 22048-0613_" },
+    {
+      "id": "22004-0214_",
+      "name": "Project testing eCore QA machine 22004-0214_"
+    },
+    { "id": "22005-0221_", "name": "Lead 1 22005-0221_" },
+    {
+      "id": "22011-0224_",
+      "name": "New project to check auto fill 22011-0224_"
+    },
+    { "id": "22008-0224_", "name": "project 3 22008-0224_" },
+    { "id": "22025-0411_", "name": "my 1st roll out project 22025-0411_" },
+    { "id": "22023-0411_", "name": "Test projecct 002 22023-0411_" },
+    {
+      "id": "22055-0622_",
+      "name": "Cabling and Camera installations 22055-0622_"
+    },
+    { "id": "22061-0705_", "name": "CRM/ERP 22061-0705_" }
+  ]
+}

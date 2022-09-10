@@ -1,0 +1,1 @@
+export type ColorsVariant='inherit' | 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning';
