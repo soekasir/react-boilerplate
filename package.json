@@ -41,8 +41,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server:dev": "json-server --watch src/api/json/api.json --port 3001",
-    "start:dev": "react-scripts start & npm run server:dev",
+    "start:dev": "react-scripts start",
     "start:prod": "npm run start"
   },
   "eslintConfig": {
