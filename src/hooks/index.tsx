@@ -1,5 +1,4 @@
 import { ReactNode, useCallback, useEffect, useRef, useState } from "react";
-import { useSearchParams } from "react-router-dom";
 
 
 export function useKeyEvent(callback:(keyboardEvent:KeyboardEvent)=>void,on:"keyup"|"keydown"="keyup") {
@@ -100,11 +99,6 @@ export const Sticky = (
   );
 };
 
-export const useTokenQwee=()=>{
-  const [searchParams] = useSearchParams();
-  return searchParams.get("qwee");
-}
-
 /** https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript */
 function getParameterByName(name:string, url = window.location.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
@@ -113,8 +107,4 @@ function getParameterByName(name:string, url = window.location.href) {
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
-}
-
-export const getTokenQwee=()=>{
-  return getParameterByName('qwee');
 }
