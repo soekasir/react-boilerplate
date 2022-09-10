@@ -7,11 +7,6 @@ export const apiLogin=(email:string,password:string)=>{
         email:email,
         password:password,
       }
-      // {
-      //   headers:{
-      //     'Authorization':'token',
-      //   }
-      // }
     ).then((res)=>{
     return res.data;
   });

@@ -1,13 +1,13 @@
 import axios from "axios"
 import { URL_API } from "../../references/constants/env";
-import headers from "./header";
+import { withAuth } from "./header";
 
 export const apiCreateCategory=(name:string)=>{
   if (URL_API) return axios.post(
       URL_API+'product/category/create',{
         name:name,
       },
-      headers
+      withAuth
     ).then((res)=>{
     return res.data;
   });
@@ -16,7 +16,7 @@ export const apiCreateCategory=(name:string)=>{
 export const apiCategory=()=>{
   if (URL_API) return axios.get(
       URL_API+'product/category',
-      headers
+      withAuth
     ).then((res)=>{
     return res.data;
   });
@@ -43,7 +43,7 @@ export const apiCreateProduct=(data:ProductDto)=>{
   if (URL_API) return axios.post(
       URL_API+'product/create',
       data,
-      headers
+      withAuth
     ).then((res)=>{
     return res.data;
   });
@@ -53,7 +53,7 @@ export const apiListProduct=(limit:number,page:number)=>{
   if (URL_API) return axios.get(
       URL_API+'product/list',
       {
-        ...headers,
+        ...withAuth,
         params:{
         limit,
         page
@@ -69,7 +69,7 @@ export const apiDeleteProduct=(id:string)=>{
       {
         id
       },
-      headers
+      withAuth
     ).then((res)=>{
     return res.data;
   });
@@ -79,9 +79,10 @@ export const apiUpdateProduct=(id:string,data:ProductDto)=>{
   if (URL_API) return axios.post(
       URL_API+'product/update',
       {
-        id
+        id,
+        data
       },
-      headers
+      withAuth
     ).then((res)=>{
     return res.data;
   });

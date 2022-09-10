@@ -1,10 +1,8 @@
 import { getToken } from "../../utils/stroge";
 
 /* eslint-disable import/no-anonymous-default-export */
-const headers={
+export const withAuth={
   headers:{
     'Authorization':'bearer '+getToken(),
   }
 }
-
-export default headers;
