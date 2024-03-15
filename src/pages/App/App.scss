@@ -4,4 +4,17 @@
   align-items: center;
   font-size: 24px;
   font-weight: 700;
+  flex-direction: column;
+}
+
+
+.datas, .counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 700;
+
+  margin-top: 42px;
 }

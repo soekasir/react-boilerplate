@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
@@ -9,9 +10,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <React.StrictMode>
-    <Router/>
-  </React.StrictMode>
+  <Router/>
 );
 
 // If you want to start measuring performance in your app, pass a function
