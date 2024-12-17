@@ -1,0 +1,54 @@
+body{
+  background-color: #F4F4F4;
+  font-family: monospace;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-track:hover{
+  background: #2c2c2c;
+}
+::-webkit-scrollbar-thumb {
+  background: none;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #646464;
+}
+
+:root {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #303030;
+  --bg-main: rgba(48, 107, 176);
+
+  --text-primary: #FFFFFF;
+  --text-primary-contrast: #000000;
+  --text-secondary: #b9b9b9;
+  --tab-manager-height: 24px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.icon{
+  color: var(--text-primary);
+}
+
+/*
+Z-INDEX:
+0. digunakan editor
+2. digunakan context menu
+3. digunakan dialog
+
+*/

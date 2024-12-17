@@ -1,0 +1,25 @@
+.dialog, .contextmenu,.overlay {
+  align-items: center;
+  position: fixed;
+  height: auto;
+  width: fit-content;
+  color: var(--text-primary);
+  
+  .optionsList {
+    padding: 8px;
+    min-width: 100px;
+    border-radius: 4px;
+    background-color: var(--bg-secondary);
+  }
+  
+  .optionListItem {
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    list-style-type: none;
+    &:hover {
+      cursor: pointer;
+      background-color: var(--bg-main);
+    }
+  }
+}

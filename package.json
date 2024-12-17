@@ -1,0 +1,70 @@
+{
+  "name": "note-app",
+  "displayName": "Note App",
+  "version": "0.0.1",
+  "description": "Note App",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.22.10",
+    "@babel/traverse": "^7.22.10",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.2.0",
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21",
+    "mobx": "^6.10.0",
+    "mobx-react": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-svg": "^16.1.21",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^16.18.39",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "monaco-editor": "^0.41.0",
+    "sass": "^1.64.2",
+    "typescript": "^4.9.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "homepage": "./",
+  "author": "soekasir",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "v22.11.0"
+  }
+}
